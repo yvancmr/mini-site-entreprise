@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Site d'Entreprise - Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Contactez-nous</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="contact-info">
+            <h2>Informations de Contact</h2>
+            <p>N'hésitez pas à nous contacter pour toute question ou demande de devis. Notre équipe est là pour vous aider.</p>
+            <ul>
+                <li>Email : <a href="mailto:contact@[tonentreprise].com">contact@[tonentreprise].com</a></li>
+                <li>Téléphone : [Ton Téléphone]</li>
+                <li>Adresse : [Ton Adresse]</li>
+            </ul>
+        </section>
+
+        <section id="contact-form">
+            <h2>Envoyez-nous un message</h2>
+            <form action="#" method="POST">
+                <p>
+                    <label for="name">Nom :</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email :</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="subject">Sujet :</label><br>
+                    <input type="text" id="subject" name="subject">
+                </p>
+                <p>
+                    <label for="message">Votre message :</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </p>
+                <p>
+                    <button type="submit">Envoyer</button>
+                </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 [Nom de ton Entreprise]. Tous droits réservés.</p>
+        <p>Adresse : [Ton Adresse] | Téléphone : [Ton Téléphone]</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
